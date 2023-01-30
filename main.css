@@ -1,3 +1,46 @@
 body {
   background-color: lavender;
 }
+
+
+ .hxhLogo {
+  width: 400px;
+  margin-top: -15px;
+  margin-bottom: -35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .line-1 {
+  height: 2px;
+  background: black;
+  margin-top: 30px;
+}
+
+ .header {
+  font-size: 53px;
+  margin-top: 7px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+ }
+
+#card-div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  font-family: 'Proza Libre';
+}
+
+.favBtn {
+  border-radius: 5px;
+  color: white;
+  background-color: #d95700;
+  border-color: #ff9061;
+  margin-top: -5px;
+}
