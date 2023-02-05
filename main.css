@@ -38,9 +38,87 @@ body {
 }
 
 .favBtn {
-  border-radius: 5px;
-  color: white;
-  background-color: #d95700;
-  border-color: #ff9061;
+  border-radius: 10px;
+  background: rgb(218,0,31);
+  background: linear-gradient(0deg, rgba(218,0,31,1) 0%, rgba(244,163,0,1) 96%);
+  border-color: #ed6700;
   margin-top: -5px;
+  color: white;
+  font-weight: 500;
 }
+
+
+.favBtn:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(255, 162, 0, 0.5), .125rem .125rem 1rem rgba(225, 0, 0, 0.5);
+}
+
+.favBtn:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(255, 162, 0, 0.5), .125rem .125rem 1rem rgba(225, 0, 0, 0.5);
+}
+
+.favBtn {
+  background: linear-gradient(to bottom right, #ffaa00, #dd0f00);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Proza Libre'
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+#top-buttons-div {
+  padding-top: 1px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+#fav-sort-btn {
+  background-color: #ff6200;
+  border-radius: 7px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Proza Libre', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.2s ease-in;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#fav-sort-btn:hover,
+#fav-sort-btn:focus {
+  background-color: #e85500;
+  transition: 0.2s ease-in;
+}
+
+#dropdown-sort [
+  font-family: 'Proza Libre'
+]

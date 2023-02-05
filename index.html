@@ -11,9 +11,26 @@
 </head>
 <body>
   <div id="main-div">
+
     <img src="https://1000logos.net/wp-content/uploads/2021/11/Hunter-x-Hunter-Logo.png" class="hxhLogo">
     <div class="line-1"></div>
-    <h1 class="header">Character Stats</h1> <br>
+      <div id="top-buttons-div">
+        <button type="button" id="fav-sort-btn">Favorites</button>
+        
+         <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="dropdown-sort">
+           Action
+          </button>
+         <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+           <li><a class="dropdown-item" href="#">Another action</a></li>
+           <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider"></li>
+           <li><a class="dropdown-item" href="#">Separated link</a></li>
+         </ul>
+
+      </div>
+    <div id="char-card-div">
+    <h1 class="header" id="header-id">Character Stats</h1> <br>
       <div id="card-div">
         <div class="card" style="width: 18rem;">
           <img src="..." class="card-img-top" alt="...">
@@ -28,8 +45,9 @@
           </div>
         </div>
       </div>
-  </div>
+    </div>
 
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 <script src="main.js"></script>
