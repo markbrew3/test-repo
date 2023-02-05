@@ -106,7 +106,7 @@ const renderCards = (array) => {
         <li>Born: ${char.birthday}</li>
         <li>Height: ${char.heightInCm}cm</li>
        </ul>
-       <button class="favBtn">★</button>
+       <button class="favBtn">Favorite</button>
     </div>
   </div>`
   }
